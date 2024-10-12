@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+html {
+    font-family: sans-serif;
+}
+#firstline{
+    text-align: center;
+    font-size: 30pt;
+}
+h2{
+    font-size:20pt;
+}
+a{
+    color: black;
+}
+.content{
+    display: flex;
+}
+.content-left{
+    width: 65%;
+    margin: 2%;
+    padding: 3%;
+    border-style: solid;
+    border-radius: 2pc;
+    background-color: rgb(200, 221, 242);
+}
+.content-right{
+    border-style: solid;
+    border-radius: 2pc;
+    margin: 2%;
+    padding: 3%; 
+}
+img {
+    width: 20pc;
+}
