@@ -1,10 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
-html {
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+.\index.html{
+    font-family: "Ysabeau Office", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
+.ysabeau-office {
+  font-family: "Ysabeau Office", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+  
 #firstline{
+    font-family: "Ysabeau Office", sans-serif;
     text-align: center;
-    font-size: 30pt;
+    font-size: 25pt;
 }
 h2{
     font-size:20pt;
@@ -31,4 +43,150 @@ a{
 }
 img {
     width: 20pc;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(255, 252, 252); 
+    color: black; 
+    padding: 15px 20px; 
+    border: 2px solid rgb(120, 120, 120); /* Рамка вокруг шапки */
+    margin-bottom: 20px; /* Отступ снизу для отделения от содержимого */
+    font-size: 17px;
+}
+
+.header nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    margin: 0; 
+    padding: 0; 
+    display: flex; /* Используем Flexbox для расположения ссылок в строку */
+    justify-content: flex-end; /* Выравниваем ссылки вправо */
+}
+
+.header nav ul li {
+    margin-left: 20px; 
+}
+
+.header nav ul li a {
+    color: black; 
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+#firstline2{
+    text-align: center;
+}
+.container {
+    background-color: #e0f7fa; 
+    padding: 20px; 
+    text-align: center; /* Центрирование содержимого по горизонтали */
+}
+
+.block {
+    width: 200px; 
+    height: 200px; 
+    background-color: #a1b4d2; 
+    margin: 0 auto; /* Центрирование блока */
+}
+
+.container img {
+    width: 200px; 
+    display: block; /* Делаем изображение блочным элементом */
+    margin: 20px auto 0;
+}
+#firstline3{
+    text-align: center;
+}
+.container-2 {
+    background-color: #e0f7fa; 
+    height: 400px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.block-2 {
+    width: 200px; 
+    height: 200px; 
+    background-color: #a1b4d2; 
+}
+#firstline4{
+    text-align: center;
+}
+.container-3 {
+    background-color: #e0f7fa; 
+    border: 2px solid black; 
+    display: flex; 
+    flex-wrap: wrap; /* Позволяем элементам переноситься на новую строку */
+    justify-content: space-between; /* Распределяем элементы равномерно по ширине */
+    padding: 10px; 
+}
+
+.block-3 {
+    width: 200px; /* Ширина блока */
+    height: 200px; /* Высота блока */
+    background-color: #a1b4d2; /* Цвет фона блока */
+    margin-bottom: 10px; /* Отступ снизу между строками */
+}
+#firstline5{
+    text-align: center;
+}
+.container-4 {
+    border: 2px solid black; 
+    display: flex; 
+}
+
+
+.block1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 4px solid green;      
+    background-color: transparent;
+    left: 620px;
+    bottom: 70px;
+    right: 150px;
+}
+
+.block2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 4px solid blue;     
+    background-color: transparent;
+    position: relative; 
+    left: 510px;
+    bottom: 100px;
+    top: 40px;
+    right: 50px;
+}
+.block3 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 4px solid red;     
+    background-color: transparent;
+    position: relative; 
+    left: 400px;
+    top: 150px;  
+}
+
+
+
+.fixed-image {
+    position: fixed; /* Фиксированное позиционирование для картинки */
+    bottom: 10px; /* Установка на 10px выше низа */
+    right: 10px; /* Установка на 10px от правого края */
+}
+
+.fixed-image img{
+    width: 100px; /* Ширина изображения */
+    height: 100px; 
 }
