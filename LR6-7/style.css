@@ -1,0 +1,56 @@
+
+.navbar-brand{
+    color: #0D1932;
+    font-weight: 600;
+}
+.nav-link {
+    color: #0D1932; 
+}
+
+
+.nav-link:hover {
+    color: #31426A; 
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: #31426A; 
+    color: white; 
+}
+
+#navbar-example3 {
+    position: sticky;
+    top: 0; 
+    height: 100vh; 
+    overflow-y: auto; 
+    background-color: white; 
+    border-right: 1px solid #ddd; 
+}
+
+
+.scrollspy-example-2 {
+    height: 100vh; 
+    overflow-y: auto; 
+    
+}
+.btn-primary{
+background-color: #31426A; 
+color: #ffffff; 
+border: #31426A;
+}
+.btn-primary{
+   
+    background-color: #0D1932; 
+    color: #ffffff; 
+    border: #0D1932;
+}
+.btn-primary:hover{
+    background-color: #31426A; 
+    color: #ffffff; 
+    border: #31426A;
+}
+.bi-exclamation-triangle-fill{
+    size: 1px;
+}
+
+
